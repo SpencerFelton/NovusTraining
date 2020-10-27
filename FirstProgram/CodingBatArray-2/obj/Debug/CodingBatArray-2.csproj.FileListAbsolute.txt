@@ -1,0 +1,7 @@
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\CodingBatArray-2\bin\Debug\CodingBatArray-2.exe.config
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\CodingBatArray-2\bin\Debug\CodingBatArray-2.exe
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\CodingBatArray-2\bin\Debug\CodingBatArray-2.pdb
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\CodingBatArray-2\obj\Debug\CodingBatArray-2.csprojAssemblyReference.cache
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\CodingBatArray-2\obj\Debug\CodingBatArray-2.csproj.CoreCompileInputs.cache
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\CodingBatArray-2\obj\Debug\CodingBatArray-2.exe
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\CodingBatArray-2\obj\Debug\CodingBatArray-2.pdb

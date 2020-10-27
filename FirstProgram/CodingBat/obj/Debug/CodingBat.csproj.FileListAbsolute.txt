@@ -1,0 +1,7 @@
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\CodingBat\bin\Debug\CodingBat.exe.config
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\CodingBat\bin\Debug\CodingBat.exe
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\CodingBat\bin\Debug\CodingBat.pdb
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\CodingBat\obj\Debug\CodingBat.csprojAssemblyReference.cache
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\CodingBat\obj\Debug\CodingBat.csproj.CoreCompileInputs.cache
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\CodingBat\obj\Debug\CodingBat.exe
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\CodingBat\obj\Debug\CodingBat.pdb

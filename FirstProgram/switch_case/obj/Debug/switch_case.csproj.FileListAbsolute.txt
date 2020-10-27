@@ -1,0 +1,6 @@
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\switch_case\bin\Debug\switch_case.exe.config
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\switch_case\bin\Debug\switch_case.exe
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\switch_case\bin\Debug\switch_case.pdb
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\switch_case\obj\Debug\switch_case.csproj.CoreCompileInputs.cache
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\switch_case\obj\Debug\switch_case.exe
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\switch_case\obj\Debug\switch_case.pdb

@@ -1,0 +1,7 @@
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\FirstProgram\bin\Debug\FirstProgram.exe.config
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\FirstProgram\bin\Debug\FirstProgram.exe
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\FirstProgram\bin\Debug\FirstProgram.pdb
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\FirstProgram\obj\Debug\FirstProgram.csprojAssemblyReference.cache
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\FirstProgram\obj\Debug\FirstProgram.csproj.CoreCompileInputs.cache
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\FirstProgram\obj\Debug\FirstProgram.exe
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\FirstProgram\obj\Debug\FirstProgram.pdb

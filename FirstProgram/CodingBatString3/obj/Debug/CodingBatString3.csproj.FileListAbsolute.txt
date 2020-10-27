@@ -1,0 +1,6 @@
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\CodingBatString3\bin\Debug\CodingBatString3.exe.config
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\CodingBatString3\bin\Debug\CodingBatString3.exe
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\CodingBatString3\bin\Debug\CodingBatString3.pdb
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\CodingBatString3\obj\Debug\CodingBatString3.csproj.CoreCompileInputs.cache
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\CodingBatString3\obj\Debug\CodingBatString3.exe
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\CodingBatString3\obj\Debug\CodingBatString3.pdb
