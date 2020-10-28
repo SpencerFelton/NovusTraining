@@ -1,0 +1,7 @@
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\MorningProblems\bin\Debug\MorningProblems.exe.config
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\MorningProblems\bin\Debug\MorningProblems.exe
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\MorningProblems\bin\Debug\MorningProblems.pdb
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\MorningProblems\obj\Debug\MorningProblems.csprojAssemblyReference.cache
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\MorningProblems\obj\Debug\MorningProblems.csproj.CoreCompileInputs.cache
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\MorningProblems\obj\Debug\MorningProblems.exe
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\MorningProblems\obj\Debug\MorningProblems.pdb

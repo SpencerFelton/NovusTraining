@@ -1,0 +1,7 @@
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\EquationAsString\bin\Debug\EquationAsString.exe.config
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\EquationAsString\bin\Debug\EquationAsString.exe
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\EquationAsString\bin\Debug\EquationAsString.pdb
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\EquationAsString\obj\Debug\EquationAsString.csprojAssemblyReference.cache
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\EquationAsString\obj\Debug\EquationAsString.csproj.CoreCompileInputs.cache
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\EquationAsString\obj\Debug\EquationAsString.exe
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\EquationAsString\obj\Debug\EquationAsString.pdb
