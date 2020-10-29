@@ -1,0 +1,7 @@
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\ShuntingYardAlgorithm\bin\Debug\ShuntingYardAlgorithm.exe.config
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\ShuntingYardAlgorithm\bin\Debug\ShuntingYardAlgorithm.exe
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\ShuntingYardAlgorithm\bin\Debug\ShuntingYardAlgorithm.pdb
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\ShuntingYardAlgorithm\obj\Debug\ShuntingYardAlgorithm.csprojAssemblyReference.cache
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\ShuntingYardAlgorithm\obj\Debug\ShuntingYardAlgorithm.csproj.CoreCompileInputs.cache
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\ShuntingYardAlgorithm\obj\Debug\ShuntingYardAlgorithm.exe
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\ShuntingYardAlgorithm\obj\Debug\ShuntingYardAlgorithm.pdb

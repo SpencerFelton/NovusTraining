@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace EquationAsString {
     class Program {
         static void Main(string[] args) {
-            String work = "-4--4-10--12";
+            String work = "5*3+3-12*8+25-6+8";
             work = checkOperation(work, '/');
             work = checkOperation(work, '*');
             work = checkOperation(work, '-'); //subtraction should come last, however add/sub are associative so can be done in either order - doing sub 1st replaces all "--" and allows add to work

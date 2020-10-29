@@ -1,0 +1,7 @@
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\NthPrime\bin\Debug\NthPrime.exe.config
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\NthPrime\bin\Debug\NthPrime.exe
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\NthPrime\bin\Debug\NthPrime.pdb
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\NthPrime\obj\Debug\NthPrime.csprojAssemblyReference.cache
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\NthPrime\obj\Debug\NthPrime.csproj.CoreCompileInputs.cache
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\NthPrime\obj\Debug\NthPrime.exe
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\NthPrime\obj\Debug\NthPrime.pdb
