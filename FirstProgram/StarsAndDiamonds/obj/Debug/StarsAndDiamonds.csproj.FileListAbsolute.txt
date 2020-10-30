@@ -1,0 +1,6 @@
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\StarsAndDiamonds\bin\Debug\StarsAndDiamonds.exe.config
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\StarsAndDiamonds\bin\Debug\StarsAndDiamonds.exe
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\StarsAndDiamonds\bin\Debug\StarsAndDiamonds.pdb
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\StarsAndDiamonds\obj\Debug\StarsAndDiamonds.csproj.CoreCompileInputs.cache
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\StarsAndDiamonds\obj\Debug\StarsAndDiamonds.exe
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\StarsAndDiamonds\obj\Debug\StarsAndDiamonds.pdb

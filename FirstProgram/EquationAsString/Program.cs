@@ -9,13 +9,15 @@ using System.Threading.Tasks;
 namespace EquationAsString {
     class Program {
         static void Main(string[] args) {
-            String work = "5*3+3-12*8+25-6+8";
+            Console.WriteLine("Please enter the mathematical operation you'd like to perform\nNote: Equations with no solution will not be solved and will cause the program to crash");
+            Console.WriteLine("\nAccepted symbols are the mathematical operators '+-*/' and the integers 0-9");
+            String work = Console.ReadLine();
             work = checkOperation(work, '/');
             work = checkOperation(work, '*');
             work = checkOperation(work, '-'); //subtraction should come last, however add/sub are associative so can be done in either order - doing sub 1st replaces all "--" and allows add to work
             work = checkOperation(work, '+');
 
-            Console.WriteLine("Fin, answer is: " + Int32.Parse(work));
+            Console.WriteLine("The evaluted equation is equal to: " + Int32.Parse(work));
             Console.ReadLine();
         }
 
@@ -26,7 +28,6 @@ namespace EquationAsString {
          * Returns the whole working string;
          */
         public static String checkOperation(String working, char operation) {
-            Console.WriteLine(operation); // what operation we're on
             while (working.Contains(operation)) {
                 int lastIndex = 0;
                 int operatorCount = 0;
@@ -47,8 +48,6 @@ namespace EquationAsString {
                     break;
                 }
                 working = doOperator(working, operation, lastIndex);
-                Console.WriteLine(working); // step by step working
-                Console.ReadLine();
             }
 
             return working;

@@ -9,7 +9,8 @@ namespace NthPrime {
     class Program {
         static void Main(string[] args) {
 
-            List<int> primes = generatePrimes(2);
+
+            List<int> primes = generatePrimes();
             int nthPrime = primes[primes.Count - 1];
             Console.WriteLine("Nth prime is: " + nthPrime);
             Console.ReadLine();

@@ -1,0 +1,6 @@
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\Anagrams\obj\Debug\Anagrams.csproj.CoreCompileInputs.cache
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\Anagrams\bin\Debug\Anagrams.exe.config
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\Anagrams\bin\Debug\Anagrams.exe
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\Anagrams\bin\Debug\Anagrams.pdb
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\Anagrams\obj\Debug\Anagrams.exe
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\Anagrams\obj\Debug\Anagrams.pdb
