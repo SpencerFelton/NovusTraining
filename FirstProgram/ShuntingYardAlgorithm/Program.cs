@@ -264,7 +264,7 @@ namespace ShuntingYardAlgorithm {
             stack.Append(@operator);
         }
 
-        public static void popFromStack(StringBuilder stack) {
+        public static void popFromStack(StringBuilder stack) { // overloaded methods
             stack.Remove(stack.Length - 1, 1);
         }
 
