@@ -1,0 +1,10 @@
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\OOP\FirstFormsApp\bin\Debug\FirstFormsApp.exe.config
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\OOP\FirstFormsApp\bin\Debug\FirstFormsApp.exe
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\OOP\FirstFormsApp\bin\Debug\FirstFormsApp.pdb
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\OOP\FirstFormsApp\obj\Debug\ShapeAreaForms.csprojAssemblyReference.cache
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\OOP\FirstFormsApp\obj\Debug\FirstFormsApp.Properties.Resources.resources
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\OOP\FirstFormsApp\obj\Debug\FirstFormsApp.ShapeAreaForms.resources
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\OOP\FirstFormsApp\obj\Debug\ShapeAreaForms.csproj.GenerateResource.cache
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\OOP\FirstFormsApp\obj\Debug\ShapeAreaForms.csproj.CoreCompileInputs.cache
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\OOP\FirstFormsApp\obj\Debug\FirstFormsApp.exe
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\OOP\FirstFormsApp\obj\Debug\FirstFormsApp.pdb

@@ -1,0 +1,10 @@
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\OOP\ShapeAreaForm\bin\Debug\ShapeAreaForm.exe.config
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\OOP\ShapeAreaForm\bin\Debug\ShapeAreaForm.exe
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\OOP\ShapeAreaForm\bin\Debug\ShapeAreaForm.pdb
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\OOP\ShapeAreaForm\obj\Debug\ShapeAreaForm.Form1.resources
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\OOP\ShapeAreaForm\obj\Debug\ShapeAreaForm.Properties.Resources.resources
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\OOP\ShapeAreaForm\obj\Debug\ShapeAreaForm.csproj.GenerateResource.cache
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\OOP\ShapeAreaForm\obj\Debug\ShapeAreaForm.csproj.CoreCompileInputs.cache
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\OOP\ShapeAreaForm\obj\Debug\ShapeAreaForm.exe
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\OOP\ShapeAreaForm\obj\Debug\ShapeAreaForm.pdb
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\OOP\ShapeAreaForm\obj\Debug\ShapeAreaForm.csprojAssemblyReference.cache

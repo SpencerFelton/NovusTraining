@@ -1,0 +1,7 @@
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\OOP\OOP\bin\Debug\OOP.exe.config
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\OOP\OOP\bin\Debug\OOP.exe
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\OOP\OOP\bin\Debug\OOP.pdb
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\OOP\OOP\obj\Debug\OOP.csprojAssemblyReference.cache
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\OOP\OOP\obj\Debug\OOP.csproj.CoreCompileInputs.cache
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\OOP\OOP\obj\Debug\OOP.exe
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\OOP\OOP\obj\Debug\OOP.pdb

@@ -1,0 +1,6 @@
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\OOP\Inheritance\bin\Debug\Inheritance.exe.config
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\OOP\Inheritance\bin\Debug\Inheritance.exe
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\OOP\Inheritance\bin\Debug\Inheritance.pdb
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\OOP\Inheritance\obj\Debug\Inheritance.csproj.CoreCompileInputs.cache
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\OOP\Inheritance\obj\Debug\Inheritance.exe
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\OOP\Inheritance\obj\Debug\Inheritance.pdb
