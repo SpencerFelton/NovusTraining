@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Overriding", "Overriding\Ov
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapeAreaForm", "ShapeAreaForm\ShapeAreaForm.csproj", "{6BAFACDC-C438-46B7-BD10-A5C73FFE9B0D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventsHandlersAndDelegates", "EventsHandlersAndDelegates\EventsHandlersAndDelegates.csproj", "{7A05CB95-8838-4135-94A1-33960617C1E2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{6BAFACDC-C438-46B7-BD10-A5C73FFE9B0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BAFACDC-C438-46B7-BD10-A5C73FFE9B0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BAFACDC-C438-46B7-BD10-A5C73FFE9B0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A05CB95-8838-4135-94A1-33960617C1E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A05CB95-8838-4135-94A1-33960617C1E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A05CB95-8838-4135-94A1-33960617C1E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A05CB95-8838-4135-94A1-33960617C1E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
