@@ -7,8 +7,6 @@ using System.Threading.Tasks;
 
 namespace Interfaces {
     class Triangle : IShape {
-        public double height{ get; set; }
-        public double @base { get; set; }
         public double sideA { get; set; }
         public double sideB { get; set; }
         public double sideC { get; set; }

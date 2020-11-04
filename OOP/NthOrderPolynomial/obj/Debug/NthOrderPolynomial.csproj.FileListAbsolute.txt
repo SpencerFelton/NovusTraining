@@ -1,0 +1,7 @@
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\OOP\NthOrderPolynomial\bin\Debug\NthOrderPolynomial.exe.config
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\OOP\NthOrderPolynomial\bin\Debug\NthOrderPolynomial.exe
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\OOP\NthOrderPolynomial\bin\Debug\NthOrderPolynomial.pdb
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\OOP\NthOrderPolynomial\obj\Debug\NthOrderPolynomial.csprojAssemblyReference.cache
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\OOP\NthOrderPolynomial\obj\Debug\NthOrderPolynomial.csproj.CoreCompileInputs.cache
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\OOP\NthOrderPolynomial\obj\Debug\NthOrderPolynomial.exe
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\OOP\NthOrderPolynomial\obj\Debug\NthOrderPolynomial.pdb

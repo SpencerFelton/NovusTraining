@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapeAreaForm", "ShapeAreaF
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventsHandlersAndDelegates", "EventsHandlersAndDelegates\EventsHandlersAndDelegates.csproj", "{7A05CB95-8838-4135-94A1-33960617C1E2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTestProject", "MyTestProject\MyTestProject.csproj", "{9C639D2C-599A-4701-99A0-0BB243D800F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NthOrderPolynomial", "NthOrderPolynomial\NthOrderPolynomial.csproj", "{F4A58306-9F0E-4FA6-9498-B5430F1ED3DE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{7A05CB95-8838-4135-94A1-33960617C1E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A05CB95-8838-4135-94A1-33960617C1E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A05CB95-8838-4135-94A1-33960617C1E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C639D2C-599A-4701-99A0-0BB243D800F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C639D2C-599A-4701-99A0-0BB243D800F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C639D2C-599A-4701-99A0-0BB243D800F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C639D2C-599A-4701-99A0-0BB243D800F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4A58306-9F0E-4FA6-9498-B5430F1ED3DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4A58306-9F0E-4FA6-9498-B5430F1ED3DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4A58306-9F0E-4FA6-9498-B5430F1ED3DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4A58306-9F0E-4FA6-9498-B5430F1ED3DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

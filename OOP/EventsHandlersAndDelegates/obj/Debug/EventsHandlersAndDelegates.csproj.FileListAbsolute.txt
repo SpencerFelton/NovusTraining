@@ -1,0 +1,7 @@
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\OOP\EventsHandlersAndDelegates\bin\Debug\EventsHandlersAndDelegates.exe.config
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\OOP\EventsHandlersAndDelegates\bin\Debug\EventsHandlersAndDelegates.exe
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\OOP\EventsHandlersAndDelegates\bin\Debug\EventsHandlersAndDelegates.pdb
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\OOP\EventsHandlersAndDelegates\obj\Debug\EventsHandlersAndDelegates.csprojAssemblyReference.cache
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\OOP\EventsHandlersAndDelegates\obj\Debug\EventsHandlersAndDelegates.csproj.CoreCompileInputs.cache
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\OOP\EventsHandlersAndDelegates\obj\Debug\EventsHandlersAndDelegates.exe
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\OOP\EventsHandlersAndDelegates\obj\Debug\EventsHandlersAndDelegates.pdb

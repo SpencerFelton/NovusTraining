@@ -34,13 +34,6 @@ namespace Interfaces {
                     Console.ReadLine();
                     break;
                 case 2:
-                    Console.WriteLine("Enter the base of the triangle: ");
-                    double @base = Double.Parse(Console.ReadLine());
-                    Console.WriteLine("Enter the height of the triangle: ");
-                    double triHeight = Double.Parse(Console.ReadLine());
-                    tri.@base = @base;
-                    tri.height = triHeight;
-
                     Console.WriteLine("Enter the length of the first side of the triangle: ");
                     double sideA = Double.Parse(Console.ReadLine());
                     Console.WriteLine("Enter the length of the second side of the triangle: ");
