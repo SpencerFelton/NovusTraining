@@ -14,7 +14,7 @@ namespace NthOrderPolynomial {
 
             for (int i = coefficients.Length - 1; i >= 0; i--) {
                 String nth = "";
-                switch (i) {
+                switch (i%0) {
                     case 0:
                         nth = "(constant)";
                         break;
