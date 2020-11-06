@@ -14,10 +14,16 @@ namespace NthOrderPolynomial {
 
             for (int i = coefficients.Length - 1; i >= 0; i--) {
                 String nth = "";
-                switch (i%0) {
+                switch (i%10) {
                     case 0:
-                        nth = "(constant)";
-                        break;
+                        if(i == 0) { // special cases
+                            nth = "(constant)";
+                            break;
+                        }
+                        else {
+                            nth = "th";
+                            break;
+                        }
                     case 1:
                         nth = "st";
                         break;
@@ -63,7 +69,7 @@ namespace NthOrderPolynomial {
                 Console.WriteLine(value);
             }
             Console.ReadLine();
-            double[] newSR = step3(newCoefs, cCoefs, r, s);
+            double[] newSR = step3(newCoefs, cCoefs, r, s, epsilon);
             foreach (double value in newSR) {
                 Console.WriteLine(value);
             }
@@ -101,14 +107,24 @@ namespace NthOrderPolynomial {
             return cCoefficients;
         }
 
-        public static double[] step3(double[] bCoefficients, double[] cCoefficients, double r, double s) {
+        public static double[] step3(double[] bCoefficients, double[] cCoefficients, double r, double s, double errMargin) {
             double[] delta = cramerMethod(bCoefficients, cCoefficients);
             double newR = r + delta[0];
             double newS = s + delta[1];
-
             double[] newSR = new double[] { newR, newS };
 
-            return newSR;
+            double[] errMargins = calcErrMargin(r, newR, s, newS);
+            bool withinErrMarg = checkErrMargins(errMargins[0], errMargins[1], errMargin);
+
+            if (withinErrMarg) {
+                // calculate the roots
+                return newSR;
+            }
+            else {
+                //repeat from step 1
+                return newSR;
+            }
+
         }
 
         public static double[] cramerMethod(double[] bCoefficients, double[] cCoefficients) {
@@ -126,6 +142,23 @@ namespace NthOrderPolynomial {
 
             double[] delta = new double[] { deltaR, deltaS };
             return delta;
+        }
+
+        public static double[] calcErrMargin(double r, double rDelta, double s, double sDelta) {
+            double rErrMargin = Math.Abs(rDelta / r) * 100;
+            double sErrMargin = Math.Abs(sDelta / s) * 100;
+
+            double[] errMargins = new double[] { rErrMargin, sErrMargin};
+            return errMargins;
+        }
+
+        public static bool checkErrMargins(double rErrMarg, double sErrMarg, double errMarg) { // returns true if either value is lower than the threshold
+            if(rErrMarg > errMarg || sErrMarg > errMarg) {
+                return false;
+            }
+            else {
+                return true;
+            }
         }
     }
 }
