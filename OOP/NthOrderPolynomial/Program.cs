@@ -55,6 +55,7 @@ namespace NthOrderPolynomial {
             Console.WriteLine(eqn);
             Console.ReadLine();
 
+            // asking for guess values
             double r = 0.1;
             double s = 0.1;
             double epsilon = 0.01;
