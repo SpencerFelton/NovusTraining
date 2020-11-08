@@ -58,6 +58,7 @@ namespace NthOrderPolynomial {
             // asking for guess values
             double r = 0.1;
             double s = 0.1;
+            // error threshold
             double epsilon = 0.01;
 
             double[] newCoefs = step1(coefficients, r, s);
