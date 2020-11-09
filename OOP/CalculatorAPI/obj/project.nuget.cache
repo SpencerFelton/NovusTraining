@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "QSK8ujrES7eHAL8rfpCsMA4YWMK1nuIQCWd+bfT0oGJh+j3VsbF7jj+ZKqh7eLUz4WFp0G5qBjwWA727ly3LpA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Spen's Beast\\Desktop\\NovusTrainingCode\\OOP\\CalculatorAPI\\CalculatorAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Spen's Beast\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Spen's Beast\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

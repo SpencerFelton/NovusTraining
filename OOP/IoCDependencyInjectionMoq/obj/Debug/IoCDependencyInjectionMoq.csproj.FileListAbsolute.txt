@@ -1,0 +1,11 @@
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\OOP\IoCDependencyInjectionMoq\bin\Debug\IoCDependencyInjectionMoq.exe.config
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\OOP\IoCDependencyInjectionMoq\bin\Debug\IoCDependencyInjectionMoq.exe
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\OOP\IoCDependencyInjectionMoq\bin\Debug\IoCDependencyInjectionMoq.pdb
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\OOP\IoCDependencyInjectionMoq\bin\Debug\nunit.framework.dll
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\OOP\IoCDependencyInjectionMoq\bin\Debug\nunit.framework.pdb
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\OOP\IoCDependencyInjectionMoq\bin\Debug\nunit.framework.xml
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\OOP\IoCDependencyInjectionMoq\obj\Debug\IoCDependencyInjectionMoq.csprojAssemblyReference.cache
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\OOP\IoCDependencyInjectionMoq\obj\Debug\IoCDependencyInjectionMoq.csproj.CoreCompileInputs.cache
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\OOP\IoCDependencyInjectionMoq\obj\Debug\IoCDependencyInjectionMoq.csproj.CopyComplete
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\OOP\IoCDependencyInjectionMoq\obj\Debug\IoCDependencyInjectionMoq.exe
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\OOP\IoCDependencyInjectionMoq\obj\Debug\IoCDependencyInjectionMoq.pdb

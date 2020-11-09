@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTestProject", "MyTestProj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NthOrderPolynomial", "NthOrderPolynomial\NthOrderPolynomial.csproj", "{F4A58306-9F0E-4FA6-9498-B5430F1ED3DE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoCDependencyInjectionMoq", "IoCDependencyInjectionMoq\IoCDependencyInjectionMoq.csproj", "{E09CA4F6-6419-4503-9616-C1CD05D2F22C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{F4A58306-9F0E-4FA6-9498-B5430F1ED3DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4A58306-9F0E-4FA6-9498-B5430F1ED3DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4A58306-9F0E-4FA6-9498-B5430F1ED3DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E09CA4F6-6419-4503-9616-C1CD05D2F22C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E09CA4F6-6419-4503-9616-C1CD05D2F22C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E09CA4F6-6419-4503-9616-C1CD05D2F22C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E09CA4F6-6419-4503-9616-C1CD05D2F22C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
