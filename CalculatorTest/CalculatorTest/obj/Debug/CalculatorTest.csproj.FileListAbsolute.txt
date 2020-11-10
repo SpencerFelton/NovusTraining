@@ -1,0 +1,11 @@
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\CalculatorTest\CalculatorTest\obj\Debug\CalculatorTest.csprojAssemblyReference.cache
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\CalculatorTest\CalculatorTest\obj\Debug\CalculatorTest.csproj.CoreCompileInputs.cache
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\CalculatorTest\CalculatorTest\bin\Debug\CalculatorTest.exe.config
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\CalculatorTest\CalculatorTest\bin\Debug\CalculatorTest.exe
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\CalculatorTest\CalculatorTest\bin\Debug\CalculatorTest.pdb
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\CalculatorTest\CalculatorTest\bin\Debug\nunit.framework.dll
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\CalculatorTest\CalculatorTest\bin\Debug\nunit.framework.pdb
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\CalculatorTest\CalculatorTest\bin\Debug\nunit.framework.xml
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\CalculatorTest\CalculatorTest\obj\Debug\CalculatorTest.csproj.CopyComplete
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\CalculatorTest\CalculatorTest\obj\Debug\CalculatorTest.exe
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\CalculatorTest\CalculatorTest\obj\Debug\CalculatorTest.pdb
