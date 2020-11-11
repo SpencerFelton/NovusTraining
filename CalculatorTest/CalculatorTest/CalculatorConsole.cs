@@ -8,6 +8,7 @@ namespace CalculatorTest {
     class CalculatorConsole {
         public static void Main() {
             while (true) {
+                // ask user for input
                 Calculator calc = new Calculator();
                 Console.WriteLine("Welcome to Calculator, please enter the number of the operation you'd like to perform:");
                 Console.WriteLine("1: Addition");
