@@ -16,7 +16,7 @@ namespace CalculatorTest {
                 Console.WriteLine("3: Multiplication");
                 Console.WriteLine("4: Division");
                 Console.WriteLine("x: Exit the program");
-                string userInput = Console.ReadLine();
+                string userInput = Console.ReadLine(); // wait for user input
                 if (userInput.ToLower().Equals("x")) {
                     Console.WriteLine("The program will now close. Press enter to exit.");
                     Console.ReadLine();
