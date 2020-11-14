@@ -16,6 +16,7 @@ namespace CalculatorTest {
             int b = 7;
             int expectedAns = 12;
             int wrongAns = 89;
+            //2nd Assert Arrange
             int nextSumA = 10;
             int nextSumB = 14;
             int nextExpectedAns = 24;
@@ -35,6 +36,7 @@ namespace CalculatorTest {
             int b = 12;
             int expectedAns = -2; // check negatives
             int wrongAns = 2;
+            //Arrange for 2nd assert
             int nextSubA = 20;
             int nextSubB = 24;
             int nextExpectedAns = -4;
@@ -54,6 +56,7 @@ namespace CalculatorTest {
             int b = 9;
             int expectedAns = 108; //
             int wrongAns = 22;
+            //2nd Assert Arrange
             int nextMulA = 15;
             int nextMulB = 14;
             int nextExptectedAns = 210;
@@ -73,6 +76,7 @@ namespace CalculatorTest {
             int b = 3;
             int expectedAns = 33; // check negatives
             int wrongAns = 45;
+            //2nd Assert Arrange
             int nextDivA = 27;
             int nextDivB = 9;
             int nextExpectedAns = 3;
