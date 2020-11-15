@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace CalculatorTest {
+    //Calculator Interface + Method signatures
     public interface ISimpleCalculator {
         int Add(int start, int amount);
         int Subtract(int start, int amount);
