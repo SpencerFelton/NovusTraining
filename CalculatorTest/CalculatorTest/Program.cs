@@ -4,18 +4,24 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Moq;
 
 namespace CalculatorTest {
     [TestFixture]
     class Program {
+
         [Test]
         public void testAdd() {
             //Arrange
-            Calculator calc = new Calculator();
             int a = 5;
             int b = 7;
             int expectedAns = 12;
             int wrongAns = 89;
+
+            var mockICalcDiag = new Mock<ICalcDiagnostics>(); // Mock in each method so we can verify
+            mockICalcDiag.Setup(x => x.CalcDetail(It.IsAny<String>())); 
+            Calculator calc = new Calculator(mockICalcDiag.Object);
+
             //2nd Assert Arrange
             int nextSumA = 10;
             int nextSumB = 14;
@@ -26,16 +32,22 @@ namespace CalculatorTest {
             //Assert
             //Assert.AreEqual(wrongAns, ans); //False answer to show Assert can fail
             Assert.AreEqual(expectedAns, ans);
+            mockICalcDiag.Verify(x => x.CalcDetail(It.IsAny<string>()));
             Assert.AreEqual(nextExpectedAns, nextAns);
+            mockICalcDiag.Verify(x => x.CalcDetail(It.IsAny<string>()));
         }
+        
         [Test]
         public void testSubtract() {
             //Arrange
-            Calculator calc = new Calculator();
             int a = 10;
             int b = 12;
             int expectedAns = -2; // check negatives
             int wrongAns = 2;
+
+            var mockICalcDiag = new Mock<ICalcDiagnostics>();
+            mockICalcDiag.Setup(x => x.CalcDetail(It.IsAny<String>()));
+            Calculator calc = new Calculator(mockICalcDiag.Object);
             //Arrange for 2nd assert
             int nextSubA = 20;
             int nextSubB = 24;
@@ -46,16 +58,20 @@ namespace CalculatorTest {
             //Assert
             //Assert.AreEqual(wrongAns, ans); //False answer to show Assert can fail
             Assert.AreEqual(expectedAns, ans);
+
             Assert.AreEqual(nextExpectedAns, nextAns);
         }
         [Test]
         public void testMultiply() {
             //Arrange
-            Calculator calc = new Calculator();
             int a = 12;
             int b = 9;
             int expectedAns = 108; //
             int wrongAns = 22;
+
+            var mockICalcDiag = new Mock<ICalcDiagnostics>();
+            mockICalcDiag.Setup(x => x.CalcDetail(It.IsAny<String>()));
+            Calculator calc = new Calculator(mockICalcDiag.Object);
             //2nd Assert Arrange
             int nextMulA = 15;
             int nextMulB = 14;
@@ -71,11 +87,14 @@ namespace CalculatorTest {
         [Test]
         public void testDivide() {
             //Arrange
-            Calculator calc = new Calculator();
             int a = 99;
             int b = 3;
             int expectedAns = 33; // check negatives
             int wrongAns = 45;
+
+            var mockICalcDiag = new Mock<ICalcDiagnostics>();
+            mockICalcDiag.Setup(x => x.CalcDetail(It.IsAny<String>()));
+            Calculator calc = new Calculator(mockICalcDiag.Object);
             //2nd Assert Arrange
             int nextDivA = 27;
             int nextDivB = 9;
@@ -88,5 +107,6 @@ namespace CalculatorTest {
             Assert.AreEqual(expectedAns, ans);
             Assert.AreEqual(nextExpectedAns, nextAns);
         }
+ 
     }
 }

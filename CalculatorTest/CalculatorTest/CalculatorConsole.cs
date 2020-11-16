@@ -7,9 +7,10 @@ using System.Threading.Tasks;
 namespace CalculatorTest {
     class CalculatorConsole {
         public static void Main() {
+            ICalcDiagnostics calcDiag = null;
             while (true) {
                 // ask user for input
-                Calculator calc = new Calculator();
+                Calculator calc = new Calculator(calcDiag);
                 Console.WriteLine("Welcome to Calculator, please enter the number of the operation you'd like to perform:");
                 Console.WriteLine("1: Addition");
                 Console.WriteLine("2: Subtraction");
