@@ -9,6 +9,14 @@ using Moq;
 namespace CalculatorTest {
     [TestFixture]
     class Program {
+        private Mock<ICalcDiagnostics> mockICalcDiag;
+
+        private Calculator newCalc() {
+            mockICalcDiag = new Mock<ICalcDiagnostics>(); // Mock in each method so we can verify
+            mockICalcDiag.Setup(x => x.CalcDetail(It.IsAny<String>()));
+            Calculator calc = new Calculator(mockICalcDiag.Object);
+            return calc;
+        }
 
         [Test]
         public void testAdd() {
@@ -17,10 +25,7 @@ namespace CalculatorTest {
             int b = 7;
             int expectedAns = 12;
             int wrongAns = 89;
-
-            var mockICalcDiag = new Mock<ICalcDiagnostics>(); // Mock in each method so we can verify
-            mockICalcDiag.Setup(x => x.CalcDetail(It.IsAny<String>())); 
-            Calculator calc = new Calculator(mockICalcDiag.Object);
+            Calculator calc = newCalc();
 
             //2nd Assert Arrange
             int nextSumA = 10;
@@ -32,9 +37,10 @@ namespace CalculatorTest {
             //Assert
             //Assert.AreEqual(wrongAns, ans); //False answer to show Assert can fail
             Assert.AreEqual(expectedAns, ans);
-            mockICalcDiag.Verify(x => x.CalcDetail(It.IsAny<string>()));
             Assert.AreEqual(nextExpectedAns, nextAns);
-            mockICalcDiag.Verify(x => x.CalcDetail(It.IsAny<string>()));
+            mockICalcDiag.Verify(x => x.CalcDetail(It.IsAny<string>()), Times.Exactly(2));
+            mockICalcDiag.VerifyAll();
+            
         }
         
         [Test]
@@ -44,10 +50,8 @@ namespace CalculatorTest {
             int b = 12;
             int expectedAns = -2; // check negatives
             int wrongAns = 2;
+            Calculator calc = newCalc();
 
-            var mockICalcDiag = new Mock<ICalcDiagnostics>();
-            mockICalcDiag.Setup(x => x.CalcDetail(It.IsAny<String>()));
-            Calculator calc = new Calculator(mockICalcDiag.Object);
             //Arrange for 2nd assert
             int nextSubA = 20;
             int nextSubB = 24;
@@ -58,8 +62,9 @@ namespace CalculatorTest {
             //Assert
             //Assert.AreEqual(wrongAns, ans); //False answer to show Assert can fail
             Assert.AreEqual(expectedAns, ans);
-
             Assert.AreEqual(nextExpectedAns, nextAns);
+            mockICalcDiag.Verify(x => x.CalcDetail(It.IsAny<string>()), Times.Exactly(2));
+            mockICalcDiag.VerifyAll();
         }
         [Test]
         public void testMultiply() {
@@ -68,10 +73,8 @@ namespace CalculatorTest {
             int b = 9;
             int expectedAns = 108; //
             int wrongAns = 22;
+            Calculator calc = newCalc();
 
-            var mockICalcDiag = new Mock<ICalcDiagnostics>();
-            mockICalcDiag.Setup(x => x.CalcDetail(It.IsAny<String>()));
-            Calculator calc = new Calculator(mockICalcDiag.Object);
             //2nd Assert Arrange
             int nextMulA = 15;
             int nextMulB = 14;
@@ -83,6 +86,8 @@ namespace CalculatorTest {
             //Assert.AreEqual(wrongAns, ans); //False answer to show Assert can fail
             Assert.AreEqual(expectedAns, ans);
             Assert.AreEqual(nextExptectedAns, nextAns);
+            mockICalcDiag.Verify(x => x.CalcDetail(It.IsAny<string>()), Times.Exactly(2));
+            mockICalcDiag.VerifyAll();
         }
         [Test]
         public void testDivide() {
@@ -91,10 +96,8 @@ namespace CalculatorTest {
             int b = 3;
             int expectedAns = 33; // check negatives
             int wrongAns = 45;
+            Calculator calc = newCalc();
 
-            var mockICalcDiag = new Mock<ICalcDiagnostics>();
-            mockICalcDiag.Setup(x => x.CalcDetail(It.IsAny<String>()));
-            Calculator calc = new Calculator(mockICalcDiag.Object);
             //2nd Assert Arrange
             int nextDivA = 27;
             int nextDivB = 9;
@@ -106,6 +109,8 @@ namespace CalculatorTest {
             //Assert.AreEqual(wrongAns, ans); //False answer to show Assert can fail
             Assert.AreEqual(expectedAns, ans);
             Assert.AreEqual(nextExpectedAns, nextAns);
+            mockICalcDiag.Verify(x => x.CalcDetail(It.IsAny<string>()), Times.Exactly(2));
+            mockICalcDiag.VerifyAll();
         }
  
     }

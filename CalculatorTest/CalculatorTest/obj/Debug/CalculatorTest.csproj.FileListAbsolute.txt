@@ -17,3 +17,6 @@ C:\Users\Spen's Beast\Desktop\NovusTrainingCode\CalculatorTest\CalculatorTest\bi
 C:\Users\Spen's Beast\Desktop\NovusTrainingCode\CalculatorTest\CalculatorTest\bin\Debug\Moq.xml
 C:\Users\Spen's Beast\Desktop\NovusTrainingCode\CalculatorTest\CalculatorTest\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\Spen's Beast\Desktop\NovusTrainingCode\CalculatorTest\CalculatorTest\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\CalculatorTest\CalculatorTest\bin\Debug\Autofac.dll
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\CalculatorTest\CalculatorTest\bin\Debug\Autofac.pdb
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\CalculatorTest\CalculatorTest\bin\Debug\Autofac.xml
