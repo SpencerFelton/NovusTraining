@@ -1,0 +1,6 @@
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\Sockets\SocketServer\bin\Debug\SocketServer.exe.config
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\Sockets\SocketServer\bin\Debug\SocketServer.exe
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\Sockets\SocketServer\bin\Debug\SocketServer.pdb
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\Sockets\SocketServer\obj\Debug\SocketServer.csproj.CoreCompileInputs.cache
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\Sockets\SocketServer\obj\Debug\SocketServer.exe
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\Sockets\SocketServer\obj\Debug\SocketServer.pdb

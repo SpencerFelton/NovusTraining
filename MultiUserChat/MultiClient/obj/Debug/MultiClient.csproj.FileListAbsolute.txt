@@ -1,0 +1,6 @@
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\MultiUserChat\MultiClient\bin\Debug\MultiClient.exe.config
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\MultiUserChat\MultiClient\bin\Debug\MultiClient.exe
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\MultiUserChat\MultiClient\bin\Debug\MultiClient.pdb
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\MultiUserChat\MultiClient\obj\Debug\MultiClient.csproj.CoreCompileInputs.cache
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\MultiUserChat\MultiClient\obj\Debug\MultiClient.exe
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\MultiUserChat\MultiClient\obj\Debug\MultiClient.pdb

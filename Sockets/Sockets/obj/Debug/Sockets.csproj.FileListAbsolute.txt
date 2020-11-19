@@ -1,0 +1,7 @@
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\Sockets\Sockets\bin\Debug\Sockets.exe.config
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\Sockets\Sockets\bin\Debug\Sockets.exe
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\Sockets\Sockets\bin\Debug\Sockets.pdb
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\Sockets\Sockets\obj\Debug\Sockets.csprojAssemblyReference.cache
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\Sockets\Sockets\obj\Debug\Sockets.csproj.CoreCompileInputs.cache
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\Sockets\Sockets\obj\Debug\Sockets.exe
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\Sockets\Sockets\obj\Debug\Sockets.pdb

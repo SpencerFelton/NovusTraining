@@ -1,0 +1,7 @@
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\MultiUserChat\MultiServer\bin\Debug\MultiServer.exe.config
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\MultiUserChat\MultiServer\bin\Debug\MultiServer.exe
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\MultiUserChat\MultiServer\bin\Debug\MultiServer.pdb
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\MultiUserChat\MultiServer\obj\Debug\MultiServer.csprojAssemblyReference.cache
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\MultiUserChat\MultiServer\obj\Debug\MultiServer.csproj.CoreCompileInputs.cache
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\MultiUserChat\MultiServer\obj\Debug\MultiServer.exe
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\MultiUserChat\MultiServer\obj\Debug\MultiServer.pdb
