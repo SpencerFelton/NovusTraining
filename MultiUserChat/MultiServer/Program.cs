@@ -59,12 +59,12 @@ namespace MultiServer {
                 clientSockets.Remove(currentSocket);
                 return;
             }
-
+            
             byte[] receivedBuff = new byte[receivedBytes];
             Array.Copy(buff, receivedBuff, receivedBytes);     // Copy the received data into the buffer
             Console.WriteLine("Received Message: " + Encoding.ASCII.GetString(receivedBuff));
             
-            if (Encoding.ASCII.GetString(receivedBuff).Equals("<EXIT>")){ // Close the current socket and remove it from the client sockets 
+            if (Encoding.ASCII.GetString(receivedBuff).Contains("<EXIT>")){ // Close the current socket and remove it from the client sockets 
                 currentSocket.Shutdown(SocketShutdown.Both);
                 currentSocket.Close();
                 clientSockets.Remove(currentSocket);
@@ -85,7 +85,7 @@ namespace MultiServer {
         }
 
         private static void sendToAllClients(string message) { // Encode a string message to bytes and send it to all sockets in the client socket List
-            foreach(Socket socket in clientSockets) {
+            foreach(Socket socket in clientSockets) {          // Assume a relatively low number of clients in this application, so a foreach loop is adequate to send messages 
                 socket.Send(Encoding.ASCII.GetBytes(message));
             }
         }

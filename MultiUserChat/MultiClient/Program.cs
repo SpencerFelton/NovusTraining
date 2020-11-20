@@ -83,7 +83,7 @@ namespace MultiClient {
             msg = $"<{getTime()}> {name}: {msg}";
             byte[] buffSend = Encoding.ASCII.GetBytes(msg); // Encode into a byte array
             client.Send(buffSend); // send the data to the server
-            if (msg.Equals("<EXIT>")) { // close the client socket and exit the environment
+            if (msg.Contains("<EXIT>")) { // close the client socket and exit the environment
                 client.Shutdown(SocketShutdown.Both);
                 client.Close();
                 Environment.Exit(0);
