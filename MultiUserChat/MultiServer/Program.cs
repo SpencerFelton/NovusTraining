@@ -56,7 +56,7 @@ namespace MultiServer {
             catch(SocketException) {
                 Console.WriteLine("Client forcefully exited");
                 currentSocket.Close();                         // Close socket on error
-                clientSockets.Remove(currentSocket);
+                clientSockets.Remove(currentSocket);           // Remove this socket from the list of clients
                 return;
             }
             
