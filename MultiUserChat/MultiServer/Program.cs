@@ -71,7 +71,7 @@ namespace MultiServer {
                 Console.WriteLine("Client disconnected");
                 return;
             }
-            sendToAllClients(Encoding.ASCII.GetString(receivedBuff));
+            sendToAllClients(Encoding.ASCII.GetString(receivedBuff)); // send the message to all currently connected clients
             currentSocket.BeginReceive(buff, 0, 128, SocketFlags.None, 
             ReceiveCallback, currentSocket);                   // Start receiving data from socket again
         }
