@@ -5,7 +5,8 @@ function getNumber()
     if(num>5)
     {
       throw("Number is greater than 5");
-    } else if (isNaN(num))
+    }
+    else if (isNaN(num))
     {
       throw("You did not enter a number!!");
     }
