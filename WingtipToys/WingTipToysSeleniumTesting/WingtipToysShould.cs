@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
+using OpenQA.Selenium.Support.UI;
 
 namespace WingTipToysSeleniumTesting
 {
@@ -80,5 +82,46 @@ namespace WingTipToysSeleniumTesting
             }
         }
 
+        [Test]
+        [Property("Category", "App")]
+        public void ClickToNavigate()
+        {
+            using (IWebDriver driver = new ChromeDriver())
+            {
+                driver.Navigate().GoToUrl(HomeURL);
+                IWebElement feedbackLink = driver.FindElement(By.LinkText("Feedback"));
+                feedbackLink.Click();
+
+                Assert.AreEqual(FeedbackURL, driver.Url);
+            }
+        }
+
+        [Test]
+        [Property("Category", "App")]
+        public void GiveUserFeedback()
+        {
+            using (IWebDriver driver = new ChromeDriver())
+            {
+                driver.Navigate().GoToUrl(HomeURL);
+                IWebElement feedbackLink = driver.FindElement(By.LinkText("Feedback"));
+                feedbackLink.Click();
+
+                driver.FindElement(By.Id("MainContent_emailAddress")).SendKeys("Me123@gmail.com"); // Entering Email
+
+                IWebElement categorySelectElement = driver.FindElement(By.Id("MainContent_categoryDropdown"));
+                SelectElement categorySource = new SelectElement(categorySelectElement);
+                //check default is the same
+                Assert.AreEqual("Cars", categorySource.SelectedOption.Text);
+                categorySource.SelectByText("Planes"); // Product category
+
+                IWebElement productSelectElement = driver.FindElement(By.Id("MainContent_productDropdown"));
+                SelectElement productSource = new SelectElement(productSelectElement);
+                productSource.SelectByText("Glider"); // Specific Product
+
+                driver.FindElement(By.Id("MainContent_feedbackTextBox")).SendKeys("Product was fab, great fun for all to be had!"); // review text
+
+                driver.FindElement(By.Id("MainContent_feedbackSubmit")).Click(); // Send the data over network to database
+            }
+        }
     }
 }

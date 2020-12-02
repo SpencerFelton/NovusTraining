@@ -89,7 +89,7 @@ namespace WingtipToys {
                 con.Close();
             }
         }
-        protected void fillDropdown()
+        protected void fillDropdown() // Initial Page load
         {
             categoryDropdown.Items.Add("Cars");
             categoryDropdown.Items.Add("Planes");
@@ -97,6 +97,12 @@ namespace WingtipToys {
             categoryDropdown.Items.Add("Ships");
             categoryDropdown.Items.Add("Rockets");
             categoryDropdown.Items.Add("General Feedback");
+
+            productDropdown.Items.Add("Convertible Car");
+            productDropdown.Items.Add("Old-time Car");
+            productDropdown.Items.Add("Fast Car");
+            productDropdown.Items.Add("Super Fast Car");
+            productDropdown.Items.Add("Old Style Racer");
         }
 
         protected int stringtoID(string s)

@@ -15,3 +15,5 @@ C:\Users\Spen's Beast\Desktop\NovusTrainingCode\WingtipToys\WingTipToysSeleniumT
 C:\Users\Spen's Beast\Desktop\NovusTrainingCode\WingtipToys\WingTipToysSeleniumTesting\obj\Debug\WingTipToysSeleniumTesting.csproj.CopyComplete
 C:\Users\Spen's Beast\Desktop\NovusTrainingCode\WingtipToys\WingTipToysSeleniumTesting\obj\Debug\WingTipToysSeleniumTesting.dll
 C:\Users\Spen's Beast\Desktop\NovusTrainingCode\WingtipToys\WingTipToysSeleniumTesting\obj\Debug\WingTipToysSeleniumTesting.pdb
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\WingtipToys\WingTipToysSeleniumTesting\bin\Debug\WebDriver.Support.dll
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\WingtipToys\WingTipToysSeleniumTesting\bin\Debug\WebDriver.Support.xml
