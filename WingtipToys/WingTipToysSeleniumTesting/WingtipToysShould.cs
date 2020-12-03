@@ -98,7 +98,7 @@ namespace WingTipToysSeleniumTesting
 
         [Test]
         [Property("Category", "App")]
-        public void GiveUserFeedback()
+        public void GiveUserFeedback() // auto navigate to feedback page, choose a product, leave a review and submit it to the database
         {
             using (IWebDriver driver = new ChromeDriver())
             {
