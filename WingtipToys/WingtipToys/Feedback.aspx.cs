@@ -58,6 +58,9 @@ namespace WingtipToys {
 
                 con.Close();
 
+                Response.Write("<script>alert('Thank you for your feedback!')</script>"); // Confirmation of feedback
+
+
 
             }
         }
