@@ -31,7 +31,7 @@ namespace WingtipToys {
                 con.Open();
                 SqlDataReader dr = cmd.ExecuteReader();
                 System.Diagnostics.Debug.WriteLine(dr.ToString());
-                if (dr.Read())
+                if (dr.Read()) // reading the result of the sql query
                 {
                     productID = dr.GetInt32(0);
                 }
@@ -41,7 +41,7 @@ namespace WingtipToys {
                 string sqlString2 = "select MAX(FeedbackID) from Feedback";
                 SqlCommand cmd2 = new SqlCommand(sqlString2, con);
                 SqlDataReader dr2 = cmd2.ExecuteReader();
-                if (dr2.Read())
+                if (dr2.Read()) // reading the result of the sql query
                 {
                     FeedbackID = dr2.GetInt32(0);
                 }
@@ -84,7 +84,7 @@ namespace WingtipToys {
                 cmd.Parameters.AddWithValue("@categoryID", categoryID);
                 con.Open();
                 SqlDataReader dr = cmd.ExecuteReader();
-                while (dr.Read() == true)
+                while (dr.Read() == true) // reading the results of the sql query
                 {
                     productDropdown.Items.Add(dr["ProductName"].ToString());
                 }
