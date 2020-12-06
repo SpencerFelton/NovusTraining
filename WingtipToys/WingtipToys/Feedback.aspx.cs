@@ -12,12 +12,12 @@ namespace WingtipToys {
         protected void Page_Load(object sender, EventArgs e) {
             if (!IsPostBack)
             {
-                fillDropdown();
+                FillDropdown();
             }
 
         }
 
-        protected void feedbackSubmit_Click(object sender, EventArgs e)
+        protected void FeedbackSubmit_Click(object sender, EventArgs e)
         {
             if (IsPostBack)
             {
@@ -65,7 +65,7 @@ namespace WingtipToys {
             }
         }
 
-        protected void categoryDropdown_SelectedIndexChanged(object sender, EventArgs e)
+        protected void CategoryDropdown_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (IsPostBack)
             {
@@ -73,7 +73,7 @@ namespace WingtipToys {
                 String txtValue = categoryDropdown.SelectedValue.ToString();
                 string s = ConfigurationManager.ConnectionStrings["WingTipToys"].ConnectionString;
                 SqlConnection con = new SqlConnection(s);
-                int categoryID = stringtoID(txtValue);
+                int categoryID = StringtoID(txtValue);
                 if(categoryID == 6)
                 {
                     productDropdown.Items.Add("General Feedback");
@@ -92,7 +92,7 @@ namespace WingtipToys {
                 con.Close();
             }
         }
-        protected void fillDropdown() // Initial Page load
+        protected void FillDropdown() // Initial Page load
         {
             categoryDropdown.Items.Add("Cars");
             categoryDropdown.Items.Add("Planes");
@@ -108,7 +108,7 @@ namespace WingtipToys {
             productDropdown.Items.Add("Old Style Racer");
         }
 
-        protected int stringtoID(string s)
+        protected int StringtoID(string s)
         {
             switch (s)
             {
