@@ -83,3 +83,5 @@ C:\Users\Spen's Beast\Desktop\NovusTrainingCode\MyFirstWebAPI\MyFirstWebAPI\obj\
 C:\Users\Spen's Beast\Desktop\NovusTrainingCode\MyFirstWebAPI\MyFirstWebAPI\obj\Debug\MyFirstWebAPI.csproj.CopyComplete
 C:\Users\Spen's Beast\Desktop\NovusTrainingCode\MyFirstWebAPI\MyFirstWebAPI\obj\Debug\MyFirstWebAPI.dll
 C:\Users\Spen's Beast\Desktop\NovusTrainingCode\MyFirstWebAPI\MyFirstWebAPI\obj\Debug\MyFirstWebAPI.pdb
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\MyFirstWebAPI\MyFirstWebAPI\bin\Swashbuckle.Core.dll
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\MyFirstWebAPI\MyFirstWebAPI\bin\WebActivatorEx.dll
