@@ -12,6 +12,8 @@ namespace ProductApp.Controllers
     public class ProductController : Controller
     {
         private ProductContext db = new ProductContext();
+
+
         // GET: Product
         public ActionResult Index()
         {
@@ -19,7 +21,7 @@ namespace ProductApp.Controllers
         }
 
         // GET: Product/Details/5
-        public ActionResult Details(int? id)
+        public ActionResult Details(int? id) // ? is optional argument
         {
             if(id == null)
             {
