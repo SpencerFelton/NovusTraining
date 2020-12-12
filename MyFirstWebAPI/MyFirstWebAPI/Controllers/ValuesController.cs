@@ -42,11 +42,13 @@ namespace MyFirstWebAPI.Controllers
         }
 
         // PUT api/values/5
+        [HttpPut]
         public void Put(int id, [FromBody] string value)
         {
         }
 
         // DELETE api/values/5
+        [HttpDelete]
         public void Delete(int id)
         {
         }

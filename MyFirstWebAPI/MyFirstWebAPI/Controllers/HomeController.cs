@@ -28,12 +28,16 @@ namespace MyFirstWebAPI.Controllers
         }
 
         //...api/Home/exists/{name}
+        // returns a bool if the item exists in the string
         [HttpGet]
         [Route("exists/{name}")]
         public bool Get(string name)
         {
             return _S.Contains(name);
         }
+
+        //...api/Home/{value}
+        //adds an item to the list
         [HttpPost]
         [Route("{value}")]
         public IEnumerable<string> Post(string value)
