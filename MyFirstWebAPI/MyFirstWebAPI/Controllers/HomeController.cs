@@ -42,14 +42,14 @@ namespace MyFirstWebAPI.Controllers
         [Route("{value}")]
         public IEnumerable<string> Post(string value)
         {
-            List<string> listString = new List<string>();
+            List<string> listString = new List<string>(); // new list to store array string values
             
             foreach(var sValue in _S)
             {
                 listString.Add(sValue);
             }
-            listString.Add(value);
-            _S = listString.ToArray();
+            listString.Add(value); // add string to array
+            this._S = listString.ToArray();
 
             return _S;
         } 
