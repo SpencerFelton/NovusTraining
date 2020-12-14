@@ -67,7 +67,7 @@ namespace ProductApp.Controllers
         {
             if(id == null)
             {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest); //error code 400
             }
             Product product = db.Products.Find(id);
             if(product == null)
@@ -103,8 +103,8 @@ namespace ProductApp.Controllers
         {
             if(id == null)
             {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            }
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);//error code 400
+            } 
             Product product = db.Products.Find(id);
             if(product == null)
             {
@@ -124,7 +124,7 @@ namespace ProductApp.Controllers
                 {
                     if(id == null)
                     {
-                        return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+                        return new HttpStatusCodeResult(HttpStatusCode.BadRequest); //error code 400
                     }
                     product = db.Products.Find(id);
                     if(product == null)
