@@ -17,7 +17,7 @@ namespace MultiServer {
         static void Main(string[] args) {
             startServer();
             Console.ReadLine(); // press enter to close the server
-            closeClientSockets();
+            closeClientSockets(); // close connection with all current sockets
         }
 
         private static void startServer() {
