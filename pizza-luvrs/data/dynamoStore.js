@@ -22,7 +22,7 @@ async function getAllItems (table) {
   return response.Items
 }
 
-async function getItem (table, idKey, id) {
+async function getItem (table, idKey, id) { // get item from table: table with idKey
   const params = {
     TableName: table,
     Key: {
