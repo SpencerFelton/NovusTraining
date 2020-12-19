@@ -20,7 +20,7 @@ namespace MultiServer {
             closeClientSockets(); // close connection with all current sockets
         }
 
-        private static void startServer() {
+        private static void startServer() { // method to start the server
             Console.WriteLine("Starting server...");
             IPAddress ipaddr = IPAddress.Any;                 // Create an onject of an IP Address.socket listening on any ip address
             IPEndPoint ipep = new IPEndPoint(ipaddr, 25000);  // Define IP END POINT
