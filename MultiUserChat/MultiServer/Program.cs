@@ -76,7 +76,7 @@ namespace MultiServer {
             ReceiveCallback, currentSocket);                   // Start receiving data from socket again
         }
 
-        private static void closeClientSockets() {
+        private static void closeClientSockets() { // Closes all client sockets currently connected to the server
             foreach (Socket socket in clientSockets) {
                 socket.Shutdown(SocketShutdown.Both);
                 socket.Close();
