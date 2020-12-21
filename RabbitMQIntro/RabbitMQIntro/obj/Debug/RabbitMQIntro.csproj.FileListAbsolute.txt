@@ -1,0 +1,13 @@
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\RabbitMQIntro\RabbitMQIntro\bin\Debug\RabbitMQIntro.exe.config
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\RabbitMQIntro\RabbitMQIntro\bin\Debug\RabbitMQIntro.exe
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\RabbitMQIntro\RabbitMQIntro\bin\Debug\RabbitMQIntro.pdb
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\RabbitMQIntro\RabbitMQIntro\obj\Debug\RabbitMQIntro.csprojAssemblyReference.cache
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\RabbitMQIntro\RabbitMQIntro\obj\Debug\RabbitMQIntro.csproj.CoreCompileInputs.cache
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\RabbitMQIntro\RabbitMQIntro\obj\Debug\RabbitMQIntro.exe
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\RabbitMQIntro\RabbitMQIntro\obj\Debug\RabbitMQIntro.pdb
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\RabbitMQIntro\RabbitMQIntro\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.dll
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\RabbitMQIntro\RabbitMQIntro\bin\Debug\RabbitMQ.Client.dll
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\RabbitMQIntro\RabbitMQIntro\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.xml
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\RabbitMQIntro\RabbitMQIntro\bin\Debug\RabbitMQ.Client.pdb
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\RabbitMQIntro\RabbitMQIntro\bin\Debug\RabbitMQ.Client.xml
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\RabbitMQIntro\RabbitMQIntro\obj\Debug\RabbitMQIntro.csproj.CopyComplete
