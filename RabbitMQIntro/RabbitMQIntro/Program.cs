@@ -15,23 +15,23 @@ namespace RabbitMQIntro
             Console.WriteLine();
             Console.WriteLine();
 
-            var connectionFactory = new RabbitMQ.Client.ConnectionFactory()
+            var connectionFactory = new RabbitMQ.Client.ConnectionFactory() // create new conenction factory
             {
-                Password = "guest",
+                Password = "guest", // default settings
                 UserName = "guest",
                 HostName = "localhost"
             };
 
             var connection = connectionFactory.CreateConnection();
-            var model = connection.CreateModel();
+            var model = connection.CreateModel(); // create a model to declare queues and exchanges
 
-            model.QueueDeclare("MyQueue", true, false, false, null);
+            model.QueueDeclare("MyQueue", true, false, false, null); // declare queue
             Console.WriteLine("Queue created");
 
-            model.ExchangeDeclare("MyExchange", ExchangeType.Topic);
+            model.ExchangeDeclare("MyExchange", ExchangeType.Topic); // declare exchange
             Console.WriteLine("Exchange created");
 
-            model.QueueBind("MyQueue", "MyExchange", "cars");
+            model.QueueBind("MyQueue", "MyExchange", "cars"); // bind queue and exchange together
             Console.WriteLine("Exchane and queue bound");
 
             Console.ReadLine();
