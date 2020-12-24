@@ -9,6 +9,7 @@ namespace RabbitMQIntro
 {
     class Program
     {
+        // Set up a simple queue/exchange binding for rabbitMQ
         static void Main(string[] args)
         {
             Console.WriteLine("Starting rabbitmq queue creator");
