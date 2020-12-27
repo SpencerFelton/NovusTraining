@@ -19,9 +19,9 @@ namespace RabbitMQIntro
 
             var connectionFactory = new RabbitMQ.Client.ConnectionFactory() // create new conenction factory
             {
-                Password = "guest", // default username/password/hostname
-                UserName = "guest",
-                HostName = "localhost"
+                Password = "guest", // default pw
+                UserName = "guest", // username
+                HostName = "localhost" //host
             };
 
             var connection = connectionFactory.CreateConnection();
