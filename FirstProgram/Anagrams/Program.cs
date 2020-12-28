@@ -7,19 +7,21 @@ using System.Threading.Tasks;
 namespace Anagrams {
     class Program {
         static void Main(string[] args) {
-            List<string> wordsToCheck = new List<string>();
-            wordsToCheck.Add("parts");
-            wordsToCheck.Add("traps");
-            wordsToCheck.Add("arts");
-            wordsToCheck.Add("rats");
-            wordsToCheck.Add("starts");
-            wordsToCheck.Add("tarts");
-            wordsToCheck.Add("rat");
-            wordsToCheck.Add("art");
-            wordsToCheck.Add("tar");
-            wordsToCheck.Add("tars");
-            wordsToCheck.Add("stars");
-            wordsToCheck.Add("stray");
+            List<string> wordsToCheck = new List<string>
+            {
+                "parts",
+                "traps",
+                "arts",
+                "rats",
+                "starts",
+                "tarts",
+                "rat",
+                "art",
+                "tar",
+                "tars",
+                "stars",
+                "stray"
+            };
 
             starAnagrams(wordsToCheck);
             Console.ReadLine();
