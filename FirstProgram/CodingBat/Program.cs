@@ -14,7 +14,7 @@ namespace CodingBat {
         }
 
         public bool sleepIn(bool weekday, bool vacation) {
-            if (weekday == false || vacation == true) {
+            if (!weekday || vacation) {
                 return true;
             }
             else {
@@ -88,13 +88,13 @@ namespace CodingBat {
         }
 
         public static int centeredAverage(int[] nums) {
-            int smallest = nums.Min();
-            int largest = nums.Max();
-            int sum = 0;
+            int smallest = nums.Min(); // time complexity n
+            int largest = nums.Max(); // time complexity n
+            int sum = 0; 
             bool skippedMax = false;
             bool skippedMin = false;
 
-            for (int i = 0; i < nums.Length; i++) {
+            for (int i = 0; i < nums.Length; i++) { // time complexity n
                 if (nums[i] == smallest) {
                     if (skippedMin == false) {
                         skippedMin = true;
