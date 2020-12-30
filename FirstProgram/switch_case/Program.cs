@@ -7,9 +7,8 @@ using System.Threading.Tasks;
 namespace switch_case {
     class Program {
         static void Main(string[] args) {
-            int x = 0;
             Console.WriteLine("Enter a +ve number: ");
-            x = Convert.ToInt16(Console.ReadLine());
+            int x = Convert.ToInt16(Console.ReadLine());
             if (x >= 0){
                 switch (x) {
                     case 0:

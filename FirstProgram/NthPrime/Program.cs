@@ -8,9 +8,10 @@ using System.Threading.Tasks;
 namespace NthPrime {
     class Program {
         static void Main(string[] args) {
+            Console.WriteLine("What prime would you like to find?");
+            int nthprime = Int32.Parse(Console.ReadLine());
 
-
-            List<int> primes = generatePrimes();
+            List<int> primes = generatePrimes(nthprime);
             int nthPrime = primes[primes.Count - 1];
             Console.WriteLine("Nth prime is: " + nthPrime);
             Console.ReadLine();
