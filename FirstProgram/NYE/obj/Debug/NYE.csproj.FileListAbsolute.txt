@@ -1,0 +1,7 @@
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\NYE\bin\Debug\NYE.exe.config
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\NYE\bin\Debug\NYE.exe
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\NYE\bin\Debug\NYE.pdb
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\NYE\obj\Debug\NYE.csprojAssemblyReference.cache
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\NYE\obj\Debug\NYE.csproj.CoreCompileInputs.cache
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\NYE\obj\Debug\NYE.exe
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\FirstProgram\NYE\obj\Debug\NYE.pdb
