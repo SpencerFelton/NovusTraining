@@ -1,0 +1,11 @@
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\CalculatorCode\CalculatorCode\bin\Debug\CalculatorCode.exe.config
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\CalculatorCode\CalculatorCode\bin\Debug\CalculatorCode.exe
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\CalculatorCode\CalculatorCode\bin\Debug\CalculatorCode.pdb
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\CalculatorCode\CalculatorCode\bin\Debug\nunit.framework.dll
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\CalculatorCode\CalculatorCode\bin\Debug\nunit.framework.pdb
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\CalculatorCode\CalculatorCode\bin\Debug\nunit.framework.xml
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\CalculatorCode\CalculatorCode\obj\Debug\CalculatorCode.csprojAssemblyReference.cache
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\CalculatorCode\CalculatorCode\obj\Debug\CalculatorCode.csproj.CoreCompileInputs.cache
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\CalculatorCode\CalculatorCode\obj\Debug\CalculatorCode.csproj.CopyComplete
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\CalculatorCode\CalculatorCode\obj\Debug\CalculatorCode.exe
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\CalculatorCode\CalculatorCode\obj\Debug\CalculatorCode.pdb
