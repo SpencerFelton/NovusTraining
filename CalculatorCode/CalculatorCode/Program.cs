@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Autofac;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,8 +11,15 @@ namespace CalculatorCode
     {
         static void Main(string[] args)
         {
-            CalculatorConsole calc = new CalculatorConsole();
-            calc.RunCalculatorConsole();
+            AutofacContainer afc = new AutofacContainer();
+            var container = afc.BuildContainer();
+            
+            
+            using (var scope = container.BeginLifetimeScope())
+            {
+                var calc = scope.Resolve<CalculatorConsole>();
+                calc.RunCalculatorConsole(scope.Resolve<Calculator>());
+            }
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using NUnit.Framework;
+﻿using Moq;
+using NUnit.Framework;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,11 +11,15 @@ namespace CalculatorCode
     [TestFixture]
     class CalculatorTests
     {
+
+        private Mock<IDiagnostics>_mockIDiag;
+        private Mock<IDBLog> _mockDBLog;
         [Test]
         public void TestAdd()
         {
             //Arrange
             Calculator calc = CreateCalculator();
+
             int val1 = 10;
             int val2 = 23;
             int expectedAns = 33;
@@ -27,6 +32,7 @@ namespace CalculatorCode
             //Assert.AreEqual(wrongAns, actualAns); //Failing Test
             Assert.AreEqual(expectedAns, actualAns); // Passing Test
 
+            _mockIDiag.Verify(x => x.LogString(It.IsAny<string>()), Times.Once); // Test the LogString method is called once
 
         }
         [Test]
@@ -45,6 +51,7 @@ namespace CalculatorCode
             //Assert
             //Assert.AreEqual(wrongAns, actualAns); //Failing Test
             Assert.AreEqual(expectedAns, actualAns); // Passing Test
+            _mockIDiag.Verify(x => x.LogString(It.IsAny<string>()), Times.Once); // Test the LogString method is called once
         }
         [Test]
         public void TestMult()
@@ -62,6 +69,7 @@ namespace CalculatorCode
             //Assert
             //Assert.AreEqual(wrongAns, actualAns); //Failing Test
             Assert.AreEqual(expectedAns, actualAns); // Passing Test
+            _mockIDiag.Verify(x => x.LogString(It.IsAny<string>()), Times.Once); // Test the LogString method is called once
         }
         [Test]
         public void TestDiv()
@@ -79,11 +87,17 @@ namespace CalculatorCode
             //Assert
             //Assert.AreEqual(wrongAns, actualAns); //Failing Test
             Assert.AreEqual(expectedAns, actualAns); // Passing Test
+            _mockIDiag.Verify(x => x.LogString(It.IsAny<string>()), Times.Once); // Test the LogString method is called once
         }
 
         public Calculator CreateCalculator()
         {
-            Calculator calc = new Calculator();
+            _mockIDiag = new Mock<IDiagnostics>();
+            _mockIDiag.Setup(x => x.LogString(It.IsAny<string>()));
+            _mockDBLog = new Mock<IDBLog>();
+            _mockDBLog.Setup(x => x.LogString(It.IsAny<string>()));
+
+            Calculator calc = new Calculator(_mockIDiag.Object, _mockDBLog.Object);
             return calc;
         }
     }
