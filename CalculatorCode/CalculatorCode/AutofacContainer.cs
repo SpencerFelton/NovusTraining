@@ -19,5 +19,13 @@ namespace CalculatorCode
             builder.RegisterType<Calculator>();
             return builder.Build();
         } 
+
+        public IContainer BuildWebContainer()
+        {
+            var builder = new ContainerBuilder();
+            builder.RegisterType<CalculatorConsole>();
+            builder.RegisterType<WebCalculator>().As<IWebCalculator>();
+            return builder.Build();
+        }
     }
 }

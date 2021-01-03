@@ -1,0 +1,16 @@
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\CalculatorCode\CalculatorWebAPI\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\CalculatorCode\CalculatorWebAPI\bin\Debug\netcoreapp2.1\CalculatorWebAPI.deps.json
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\CalculatorCode\CalculatorWebAPI\bin\Debug\netcoreapp2.1\CalculatorWebAPI.runtimeconfig.json
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\CalculatorCode\CalculatorWebAPI\bin\Debug\netcoreapp2.1\CalculatorWebAPI.runtimeconfig.dev.json
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\CalculatorCode\CalculatorWebAPI\bin\Debug\netcoreapp2.1\CalculatorWebAPI.dll
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\CalculatorCode\CalculatorWebAPI\bin\Debug\netcoreapp2.1\CalculatorWebAPI.pdb
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\CalculatorCode\CalculatorWebAPI\obj\Debug\netcoreapp2.1\CalculatorWebAPI.csprojAssemblyReference.cache
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\CalculatorCode\CalculatorWebAPI\obj\Debug\netcoreapp2.1\CalculatorWebAPI.AssemblyInfoInputs.cache
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\CalculatorCode\CalculatorWebAPI\obj\Debug\netcoreapp2.1\CalculatorWebAPI.AssemblyInfo.cs
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\CalculatorCode\CalculatorWebAPI\obj\Debug\netcoreapp2.1\CalculatorWebAPI.RazorAssemblyInfo.cache
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\CalculatorCode\CalculatorWebAPI\obj\Debug\netcoreapp2.1\CalculatorWebAPI.RazorAssemblyInfo.cs
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\CalculatorCode\CalculatorWebAPI\obj\Debug\netcoreapp2.1\CalculatorWebAPI.RazorTargetAssemblyInfo.cache
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\CalculatorCode\CalculatorWebAPI\obj\Debug\netcoreapp2.1\CalculatorWebAPI.dll
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\CalculatorCode\CalculatorWebAPI\obj\Debug\netcoreapp2.1\CalculatorWebAPI.pdb
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\CalculatorCode\CalculatorWebAPI\obj\Debug\netcoreapp2.1\CalculatorWebAPI.genruntimeconfig.cache
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\CalculatorCode\CalculatorWebAPI\obj\Debug\netcoreapp2.1\CalculatorWebAPI.csproj.CoreCompileInputs.cache

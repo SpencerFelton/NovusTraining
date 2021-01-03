@@ -10,16 +10,16 @@ namespace CalculatorCode
     class Program
     {
         static void Main(string[] args)
-        {
+        {           
             AutofacContainer afc = new AutofacContainer();
             var container = afc.BuildContainer();
-            
             
             using (var scope = container.BeginLifetimeScope())
             {
                 var calc = scope.Resolve<CalculatorConsole>();
                 calc.RunCalculatorConsole(scope.Resolve<Calculator>());
             }
+            
         }
     }
 }

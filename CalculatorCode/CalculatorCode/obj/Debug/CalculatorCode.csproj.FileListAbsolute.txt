@@ -43,3 +43,7 @@ C:\Users\Spen's Beast\Desktop\NovusTrainingCode\CalculatorCode\CalculatorCode\bi
 C:\Users\Spen's Beast\Desktop\NovusTrainingCode\CalculatorCode\CalculatorCode\bin\Debug\Autofac.Extensions.DependencyInjection.xml
 C:\Users\Spen's Beast\Desktop\NovusTrainingCode\CalculatorCode\CalculatorCode\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
 C:\Users\Spen's Beast\Desktop\NovusTrainingCode\CalculatorCode\CalculatorCode\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\CalculatorCode\CalculatorCode\bin\Debug\EntityFramework.dll
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\CalculatorCode\CalculatorCode\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\CalculatorCode\CalculatorCode\bin\Debug\EntityFramework.xml
+C:\Users\Spen's Beast\Desktop\NovusTrainingCode\CalculatorCode\CalculatorCode\bin\Debug\EntityFramework.SqlServer.xml
