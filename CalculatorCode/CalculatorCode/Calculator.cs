@@ -20,7 +20,8 @@ namespace CalculatorCode
         public int Add(int start, int amount)
         {
             IDiagnostics.LogString($"Logging {start} + {amount}: {start + amount}");
-            DataBaseLog.LogString($"Logging {start} + {amount}: {start + amount}");
+            //DataBaseLog.LogString($"Logging {start} + {amount}: {start + amount}");
+            DataBaseLog.StoredProcedureLog($"Logging {start} + {amount}: {start + amount}");
             return start + amount;
         }
 
