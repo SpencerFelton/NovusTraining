@@ -11,7 +11,7 @@ namespace CalculatorCode
     {
         public void RunCalculatorConsole(Calculator calc)
         {
-            IWebCalculator WebCalculator;
+            IWebCalculator WebCalculator; // no need to instantiate until user decides to do webapi calc
             bool continuer = true;
 
             Console.WriteLine("Welcome to the Calculator Console App. Would you like to use the web api or the calculator program?:");
