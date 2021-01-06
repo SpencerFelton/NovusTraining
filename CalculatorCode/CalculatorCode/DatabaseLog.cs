@@ -10,6 +10,7 @@ namespace CalculatorCode
 {
     class DatabaseLog : IDBLog
     {
+        // NOTE: ALL DATABASE LOG METHODS ASSUME DATABASE HAS ALREADY BEEN CREATED
         public void LogString(string message)
         {
             string s = ConfigurationManager.ConnectionStrings["CalculatorLogging"].ConnectionString;
@@ -58,9 +59,9 @@ namespace CalculatorCode
             con.Close();
 
             SqlCommand cmd2 = new SqlCommand();
-            cmd2.CommandType = System.Data.CommandType.StoredProcedure;
-            cmd2.CommandText = "LogMessage";
-            cmd2.Parameters.AddWithValue("@ID", ID + 1);
+            cmd2.CommandType = System.Data.CommandType.StoredProcedure; // Stored procedure command type
+            cmd2.CommandText = "LogMessage"; // Stored Procedure
+            cmd2.Parameters.AddWithValue("@ID", ID + 1); // Increment ID to avoid ID clash
             cmd2.Parameters.AddWithValue("@message", message);
             cmd2.Connection = con;
             try
@@ -77,8 +78,17 @@ namespace CalculatorCode
             con.Close();
 
             Console.WriteLine("Log Received by Stored Procedure");
+        }
 
-
+        public void EFDBLog(string message)
+        {
+            using (var db = new CalculatorLoggingEntities())
+            {
+                var maxID = db.Logs.Max(p => p.ID+1); // max ID + 1
+                var newRecord = new Log { ID = maxID, Message = message };
+                db.Logs.Add(newRecord);
+                db.SaveChanges();
+            }
         }
     }
 }

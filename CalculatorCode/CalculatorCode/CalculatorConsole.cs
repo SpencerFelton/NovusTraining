@@ -62,6 +62,11 @@ namespace CalculatorCode
                             int num1Div = Int32.Parse(Console.ReadLine());
                             Console.WriteLine("Please enter the second number:");
                             int num2Div = Int32.Parse(Console.ReadLine());
+                            if (num2Div == 0)
+                            {
+                                divisionWithZero();
+                                break;
+                            }
 
                             var divAns = WebCalculator.GetResource(4, num1Div, num2Div);
                             Console.WriteLine($"The answer is: {divAns.Result}");
@@ -81,6 +86,7 @@ namespace CalculatorCode
             // Calc Program Option
             if (option.Equals("2"))
             {
+                calc.chooseLoggingMethod();
                 
                 while (continuer)
                 {
@@ -94,7 +100,7 @@ namespace CalculatorCode
                             Console.WriteLine("Please enter the second number:");
                             int num2Add = Int32.Parse(Console.ReadLine());
 
-                            int AddAns = calc.Add(num1Add, num2Add);
+                            calc.Add(num1Add, num2Add);
                             break;
                         case "2":
                             Console.WriteLine("Please enter the first number:");
@@ -102,7 +108,7 @@ namespace CalculatorCode
                             Console.WriteLine("Please enter the second number:");
                             int num2Sub = Int32.Parse(Console.ReadLine());
 
-                            int SubAns = calc.Sub(num1Sub, num2Sub);
+                            calc.Sub(num1Sub, num2Sub);
                             break;
                         case "3":
                             Console.WriteLine("Please enter the first number:");
@@ -110,15 +116,20 @@ namespace CalculatorCode
                             Console.WriteLine("Please enter the second number:");
                             int num2Mult = Int32.Parse(Console.ReadLine());
 
-                            int MultAns = calc.Mult(num1Mult, num2Mult);
+                            calc.Mult(num1Mult, num2Mult);
                             break;
                         case "4":
                             Console.WriteLine("Please enter the first number:");
                             int num1Div = Int32.Parse(Console.ReadLine());
                             Console.WriteLine("Please enter the second number:");
                             int num2Div = Int32.Parse(Console.ReadLine());
+                            if(num2Div == 0)
+                            {
+                                divisionWithZero();
+                                break;
+                            }
 
-                            int DivAns = calc.Div(num1Div, num2Div);
+                            calc.Div(num1Div, num2Div);
                             break;
                         case "Q":
                             Console.WriteLine("Goodbye");
@@ -141,6 +152,11 @@ namespace CalculatorCode
             Console.WriteLine("4: Division");
             Console.WriteLine("Q: Exit the program");
             Console.WriteLine("Please enter a symbol corresponding to one of the above actions:");
+        }
+
+        public void divisionWithZero()
+        {
+            Console.WriteLine("You tried to divide by 0, the operation did not continue!");
         }
     }
 }

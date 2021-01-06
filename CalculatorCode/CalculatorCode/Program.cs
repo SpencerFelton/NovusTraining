@@ -19,7 +19,6 @@ namespace CalculatorCode
                 var calc = scope.Resolve<CalculatorConsole>();
                 calc.RunCalculatorConsole(scope.Resolve<Calculator>());
             }
-            
         }
     }
 }
