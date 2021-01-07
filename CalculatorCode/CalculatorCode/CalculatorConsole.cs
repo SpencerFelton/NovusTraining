@@ -24,7 +24,7 @@ namespace CalculatorCode
             {
                 Console.WriteLine("Please start a new instance of Calculator Web API from VS 2019 now please.");
                 WebCalculator = new WebCalculator();
-                while (continuer)
+                while (continuer) // Loop until the user types Q
                 {
                     printOptions();
                     string input = Console.ReadLine().Trim().ToUpper();
