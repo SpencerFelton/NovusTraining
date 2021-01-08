@@ -18,13 +18,10 @@ namespace CalculatorCode
 
         public async Task<string> GetResource(int service, int a, int b)
         {
-
             var request = new HttpRequestMessage(HttpMethod.Post, $"api/{service}/{a}/{b}");
             var response = await _httpClient.SendAsync(request);
             response.EnsureSuccessStatusCode();
-            var content = await response.Content.ReadAsStringAsync();
-
-            return content;
+            return await response.Content.ReadAsStringAsync();
         }
     }
 }
