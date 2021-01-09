@@ -40,7 +40,7 @@ namespace CalculatorCode
             Console.WriteLine("Log Received");
         }
 
-        public void StoredProcedureLog(string message)
+        public void StoredProcedureLog(string message) // Log by stored procedure
         {
             string s = ConfigurationManager.ConnectionStrings["CalculatorLogging"].ConnectionString;
             SqlConnection con = new SqlConnection(s);
@@ -80,7 +80,7 @@ namespace CalculatorCode
             Console.WriteLine("Log Received by Stored Procedure");
         }
 
-        public void EFDBLog(string message)
+        public void EFDBLog(string message) // Log by Entity Framework
         {
             using (var db = new CalculatorLoggingEntities())
             {
