@@ -21,7 +21,7 @@ namespace CalculatorCode
         public int Add(int start, int amount)
         {
             string message = $"Logging {start} + {amount}: {start + amount}";
-            switch (loggingChoice)
+            switch (loggingChoice) // Break if any incorrect option is entered
             {
                 case "1":
                     DataBaseLog.EFDBLog(message);
