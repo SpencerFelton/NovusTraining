@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Spen's Beast\\Desktop\\StockTrackingApp\\StockTrackingApp\\StockTrackingApp\\Producer\\Producer.csproj",
+      "projectUniqueName": "C:\\Users\\Spen's Beast\\Desktop\\NovusTraining\\StockTrackingApp\\Producer\\Producer.csproj",
       "projectName": "Producer",
-      "projectPath": "C:\\Users\\Spen's Beast\\Desktop\\StockTrackingApp\\StockTrackingApp\\StockTrackingApp\\Producer\\Producer.csproj",
+      "projectPath": "C:\\Users\\Spen's Beast\\Desktop\\NovusTraining\\StockTrackingApp\\Producer\\Producer.csproj",
       "packagesPath": "C:\\Users\\Spen's Beast\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Spen's Beast\\Desktop\\StockTrackingApp\\StockTrackingApp\\StockTrackingApp\\Producer\\obj\\",
+      "outputPath": "C:\\Users\\Spen's Beast\\Desktop\\NovusTraining\\StockTrackingApp\\Producer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

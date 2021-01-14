@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8Bcu11KNfURsV+U1RKvInz48Yd9xz6k17nwbKbwdp6k52RT/d5ewMS4INptyeuvUyVVXJ1SVwOMjid0OlPJWyg==",
+  "dgSpecHash": "lxSQ73OfagI6eONeKLJftS4Z8muJ+Nnf2ea1dCqCzOXXvX1tLjpx27rRBaTAHGCdVPjjcx68F+x6OirPySwQlw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Spen's Beast\\Desktop\\StockTrackingApp\\StockTrackingApp\\StockTrackingApp\\StockTrackingApp\\StockTrackingApp.csproj",
+  "projectFilePath": "C:\\Users\\Spen's Beast\\Desktop\\NovusTraining\\StockTrackingApp\\StockTrackingApp\\StockTrackingApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Spen's Beast\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Users\\Spen's Beast\\.nuget\\packages\\microsoft.aspnetcore\\2.1.1\\microsoft.aspnetcore.2.1.1.nupkg.sha512",

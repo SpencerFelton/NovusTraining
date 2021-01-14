@@ -11920,11 +11920,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Spen's Beast\\Desktop\\StockTrackingApp\\StockTrackingApp\\StockTrackingApp\\StockTrackingApp\\StockTrackingApp.csproj",
+      "projectUniqueName": "C:\\Users\\Spen's Beast\\Desktop\\NovusTraining\\StockTrackingApp\\StockTrackingApp\\StockTrackingApp.csproj",
       "projectName": "StockTrackingApp",
-      "projectPath": "C:\\Users\\Spen's Beast\\Desktop\\StockTrackingApp\\StockTrackingApp\\StockTrackingApp\\StockTrackingApp\\StockTrackingApp.csproj",
+      "projectPath": "C:\\Users\\Spen's Beast\\Desktop\\NovusTraining\\StockTrackingApp\\StockTrackingApp\\StockTrackingApp.csproj",
       "packagesPath": "C:\\Users\\Spen's Beast\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Spen's Beast\\Desktop\\StockTrackingApp\\StockTrackingApp\\StockTrackingApp\\StockTrackingApp\\obj\\",
+      "outputPath": "C:\\Users\\Spen's Beast\\Desktop\\NovusTraining\\StockTrackingApp\\StockTrackingApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
