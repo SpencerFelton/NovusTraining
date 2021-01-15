@@ -23,7 +23,7 @@ namespace WingtipToys {
             {
                 string productName = productDropdown.Text;
                 int productID = -1;
-                string s = ConfigurationManager.ConnectionStrings["WingTipToys"].ConnectionString;
+                string s = ConfigurationManager.ConnectionStrings["WingTipToys"].ConnectionString; // database connection details
                 SqlConnection con = new SqlConnection(s);
                 string sqlString = "select ProductID from Products where ProductName=@productName";
                 SqlCommand cmd = new SqlCommand(sqlString, con);
