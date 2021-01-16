@@ -22,20 +22,20 @@ namespace WingtipToys {
             if (IsPostBack)
             {
                 string productName = productDropdown.Text;
-                int productID = -1;
+                int productID = -1; // assume product ID is smaller than anything in the db
                 string s = ConfigurationManager.ConnectionStrings["WingTipToys"].ConnectionString; // database connection details
                 SqlConnection con = new SqlConnection(s);
                 string sqlString = "select ProductID from Products where ProductName=@productName";
                 SqlCommand cmd = new SqlCommand(sqlString, con);
                 cmd.Parameters.AddWithValue("@productName", productName);
-                con.Open();
+                con.Open(); // open connectiong
                 SqlDataReader dr = cmd.ExecuteReader();
                 System.Diagnostics.Debug.WriteLine(dr.ToString());
                 if (dr.Read()) // reading the result of the sql query
                 {
                     productID = dr.GetInt32(0);
                 }
-                dr.Close();
+                dr.Close(); // close connection
 
                 int FeedbackID = 0;
                 string sqlString2 = "select MAX(FeedbackID) from Feedback";
