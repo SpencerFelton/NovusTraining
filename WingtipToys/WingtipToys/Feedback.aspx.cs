@@ -79,8 +79,8 @@ namespace WingtipToys {
                     productDropdown.Items.Add("General Feedback");
                 }
                 System.Diagnostics.Debug.WriteLine("CAATEGORY ID: " + categoryID);
-                string sqlString = "select ProductName from Products where CategoryID=@categoryID";
-                SqlCommand cmd = new SqlCommand(sqlString, con);
+                string sqlString = "select ProductName from Products where CategoryID=@categoryID"; // sql string
+                SqlCommand cmd = new SqlCommand(sqlString, con); //execute sql command
                 cmd.Parameters.AddWithValue("@categoryID", categoryID);
                 con.Open();
                 SqlDataReader dr = cmd.ExecuteReader();
