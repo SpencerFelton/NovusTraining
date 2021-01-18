@@ -92,7 +92,7 @@ namespace WingtipToys {
                 con.Close();
             }
         }
-        protected void FillDropdown() // Initial Page load
+        protected void FillDropdown() // Initial Page load - fill up the dropdown with options
         {
             categoryDropdown.Items.Add("Cars");
             categoryDropdown.Items.Add("Planes");
