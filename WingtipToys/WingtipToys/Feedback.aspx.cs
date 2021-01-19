@@ -108,7 +108,7 @@ namespace WingtipToys {
             productDropdown.Items.Add("Old Style Racer");
         }
 
-        protected int StringtoID(string s)
+        protected int StringtoID(string s) // helper method to choose which category to select
         {
             switch (s)
             {
