@@ -123,7 +123,7 @@ namespace WingtipToys {
                 case "Rockets":
                     return 5;
                 case "General Feedback":
-                default:
+                default: // return 6 if the string doesnt match
                     return 6;
             } 
         }
