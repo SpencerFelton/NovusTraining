@@ -37,7 +37,7 @@ namespace WingtipToys {
                 }
                 dr.Close(); // close connection
 
-                int FeedbackID = 0;
+                int FeedbackID = 0; // default feedbackID
                 string sqlString2 = "select MAX(FeedbackID) from Feedback";
                 SqlCommand cmd2 = new SqlCommand(sqlString2, con);
                 SqlDataReader dr2 = cmd2.ExecuteReader();
