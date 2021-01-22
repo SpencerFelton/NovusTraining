@@ -47,6 +47,7 @@ namespace WingtipToys {
                 }
                 dr2.Close();
 
+                // SQL String
                 string sqlString3 = "insert into Feedback values(@feedbackID, @productID, @productName, @emailAddress, @feedback)";
                 SqlCommand cmd3 = new SqlCommand(sqlString3, con);
                 cmd3.Parameters.AddWithValue("@feedbackID", FeedbackID+1);
