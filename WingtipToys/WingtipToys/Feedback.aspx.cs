@@ -12,7 +12,7 @@ namespace WingtipToys {
         protected void Page_Load(object sender, EventArgs e) {
             if (!IsPostBack)
             {
-                FillDropdown();
+                FillDropdown(); // load the dropdowns on the page when it loads
             }
 
         }
