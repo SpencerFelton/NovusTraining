@@ -9,7 +9,7 @@ namespace closeFar
             Console.WriteLine("Hello World!");
         }
 
-        public int luckySum(int a, int b, int c)
+        public int luckySum(int a, int b, int c) // returns the sum of 3 numbers, excluding any numbers equal to 13
         {
             int sum = a + b + c;
             if(a == 13)
