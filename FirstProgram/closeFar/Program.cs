@@ -11,7 +11,7 @@ namespace closeFar
 
         public int luckySum(int a, int b, int c) // returns the sum of 3 numbers, excluding any numbers equal to 13
         {
-            int sum = a + b + c;
+            int sum = a + b + c; // initial sum
             if(a == 13)
             {
                 sum -= a;
