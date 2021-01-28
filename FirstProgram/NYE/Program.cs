@@ -10,7 +10,7 @@ namespace NYE
     {
         static void Main(string[] args)
         {
-            _ = new DateTime();
+            _ = new DateTime(); // a discard variable
             DateTime currentDate = DateTime.Now;
             _ = new DateTime();
             string date = "1/1/2021 0:00:01 AM";
