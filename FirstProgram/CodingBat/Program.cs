@@ -78,7 +78,7 @@ namespace CodingBat {
             }
         }
 
-        public static bool or35(int n) {
+        public static bool or35(int n) { //returns true if an int is a multiple of 3 or 5
             if(n%3 == 0 || n%5 == 0) {
                 return true;
             }
