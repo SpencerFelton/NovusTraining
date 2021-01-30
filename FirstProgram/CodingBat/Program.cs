@@ -13,7 +13,7 @@ namespace CodingBat {
             Console.ReadLine();
         }
 
-        public bool sleepIn(bool weekday, bool vacation) { // returns true on weekends or vacation
+        public bool sleepIn(bool weekday, bool vacation) { // returns true on weekends or if vacation
             if (!weekday || vacation) {
                 return true;
             }
