@@ -240,7 +240,7 @@ namespace CodingBat {
             return sb.ToString();
         }
 
-        public static int sumNumbers(String str) {
+        public static int sumNumbers(String str) { // sum of numbers in a string
             int sum = 0;
             StringBuilder current = new StringBuilder();
 
