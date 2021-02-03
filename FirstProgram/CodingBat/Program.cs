@@ -30,11 +30,11 @@ namespace CodingBat {
             return diff;
         }
 
-        public bool cigarParty(int cigars, bool isWeekend) {
-            if (isWeekend && cigars >= 40) {
+        public bool cigarParty(int cigars, bool isWeekend) { 
+            if (isWeekend && cigars >= 40) { //weekend and more than 40 cigs
                 return true;
             }
-            else if(cigars >= 40 && cigars <= 60) {
+            else if(cigars >= 40 && cigars <= 60) { //40 - 60 cigs
                 return true;
             }
             else {
