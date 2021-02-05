@@ -59,7 +59,7 @@ namespace CodingBat {
             return sb.ToString();
         }
 
-        public static bool posNeg(int a, int b, bool negative) {
+        public static bool posNeg(int a, int b, bool negative) { // returns true if both nums are pos or neg
             if (negative) {
                 if(a < 0 && b < 0) {
                     return true;
