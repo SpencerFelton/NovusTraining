@@ -118,7 +118,7 @@ namespace CodingBat {
             return sum / (nums.Length - 2);
         }
 
-        public static String helloName(String s) {
+        public static String helloName(String s) { // return "Hello +" a string s
             String greeting = "Hello ";
             String ending = "!";
 
