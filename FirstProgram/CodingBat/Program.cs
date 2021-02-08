@@ -173,7 +173,7 @@ namespace CodingBat {
                 return false;
             }
         }
-        public static String doubleChar(String str) {
+        public static String doubleChar(String str) { // double every char in a string
             StringBuilder sb = new StringBuilder();
 
             for (int i = 0; i < str.Length; i++) {
