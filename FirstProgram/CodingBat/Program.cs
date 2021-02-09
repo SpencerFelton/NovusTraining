@@ -126,14 +126,14 @@ namespace CodingBat {
             return finalString;
         }
 
-        public static String makeOutWord(String box, String word) {
+        public static String makeOutWord(String box, String word) { 
             StringBuilder sb = new StringBuilder();
             sb.Append(box.Substring(0, 2) + word + box.Substring(2));
 
             return sb.ToString();
         }
 
-        public static String nTwice(String str, int n) {
+        public static String nTwice(String str, int n) { //double a word
             StringBuilder sb = new StringBuilder();
             sb.Append(str.Substring(0, n) + str.Substring(str.Length - n));
 
