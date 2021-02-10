@@ -160,7 +160,7 @@ namespace CodingBat {
             return newStr.ToString();
         }
 
-        public static Boolean hasBad(String str) {
+        public static Boolean hasBad(String str) { // returns true or false depending if the word contains bad
             if (str.Length < 4) {
                 char whitespace = ' ';
                 String space = new String(whitespace, 4 - str.Length);
