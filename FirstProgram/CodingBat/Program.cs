@@ -140,7 +140,7 @@ namespace CodingBat {
             return sb.ToString();
         }
 
-        public static String seeColour(String str) {
+        public static String seeColour(String str) { // returns the string "blue" or "red" depending which comes first in the input string
             if (str.Substring(0, 3) == "red") {
                 return str.Substring(0, 3);
             }
