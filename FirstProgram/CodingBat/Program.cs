@@ -24,7 +24,7 @@ namespace CodingBat {
 
         public int diff21(int n) { // returns the difference beteen int n and 2, if n is > 21 returns double the diff
             int diff = 21 - n;
-            if(diff < 0) {
+            if(diff < 0) { // only double if diff is less than 0
                 diff *= -2;
             }
             return diff;
