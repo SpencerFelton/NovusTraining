@@ -53,7 +53,7 @@ namespace CodingBat {
 
         public static String missingChar(String str, int n) { // returns string str after removing char at index n
             StringBuilder sb = new StringBuilder(str);
-            sb.Remove(n, 1);
+            sb.Remove(n, 1); // remove char at index n
             Console.WriteLine(sb.ToString());
             Console.ReadLine();
             return sb.ToString();
