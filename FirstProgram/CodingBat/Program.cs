@@ -69,7 +69,7 @@ namespace CodingBat {
                 }
             }
             else {
-                if((a >= 0 && b < 0) || (a < 0 && b >= 0)) {
+                if((a >= 0 && b < 0) || (a < 0 && b >= 0)) { // a is a +ve int and b -ve int, or vice versa
                     return true;
                 }
                 else {
