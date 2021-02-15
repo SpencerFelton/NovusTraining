@@ -182,7 +182,7 @@ namespace CodingBat {
             return sb.ToString();
         }
 
-        public static String repeatEnd(String str, int n) {
+        public static String repeatEnd(String str, int n) { // repeat the last n chars of a string n times
             String subString = str.Substring(str.Length - n);
             StringBuilder sb = new StringBuilder();
             for (int i = 0; i < n; i++) {
