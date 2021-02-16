@@ -240,11 +240,11 @@ namespace CodingBat {
             return sb.ToString();
         }
 
-        public static int sumNumbers(String str) { // sum of numbers in a string
+        public static int sumNumbers(String str) { // sum of numbers in a string - assumes numbers are single digit ints
             int sum = 0;
             StringBuilder current = new StringBuilder();
 
-            for (int i = 0; i < str.Length; i++) {
+            for (int i = 0; i < str.Length; i++) { 
                 if (Char.IsDigit(str[i])) {
                     current.Append(str[i].ToString());
 
