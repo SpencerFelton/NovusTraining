@@ -9,7 +9,7 @@ namespace CodingBat {
     //consolidated all coding bat challenges into a single file
     class Program {
         static void Main(string[] args) {
-            Console.WriteLine(or35(12));
+            Console.WriteLine(or35(12)); // function to be called
             Console.ReadLine();
         }
 
