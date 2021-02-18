@@ -42,7 +42,7 @@ namespace CodingBat {
             }
         }
 
-        public bool nearHundred(int n) {
+        public bool nearHundred(int n) { // returns true if an int is between 90 and 210
             if(Math.Abs(100 - n) <= 10 || Math.Abs(200 - n) <= 10) { // between 90 and 210
                 return true;
             }
