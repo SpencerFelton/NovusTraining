@@ -152,7 +152,7 @@ namespace CodingBat {
             }
         }
 
-        public static String withoutX2(String str) {
+        public static String withoutX2(String str) { // removes x from the first 2 indicies of a string
             StringBuilder newStr = new StringBuilder();
             newStr.Append(str.Substring(0, 2));
             newStr.Replace("x", "");
