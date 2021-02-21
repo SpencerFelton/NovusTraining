@@ -10,7 +10,7 @@ namespace CodingBat {
     class Program {
         static void Main(string[] args) {
             Console.WriteLine(or35(12)); // function to be called
-            Console.ReadLine();
+            Console.ReadLine(); //prevent program exit until user input
         }
 
         public bool sleepIn(bool weekday, bool vacation) { // returns true on weekends or if vacation
