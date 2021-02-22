@@ -88,8 +88,8 @@ namespace CodingBat {
         }
 
         public static int centeredAverage(int[] nums) {
-            int smallest = nums.Min(); // time complexity n
-            int largest = nums.Max(); // time complexity n
+            int smallest = nums.Min(); // time complexity n - min num in array
+            int largest = nums.Max(); // time complexity n - max num in array
             int sum = 0; 
             bool skippedMax = false;
             bool skippedMin = false;
