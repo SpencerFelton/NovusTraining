@@ -128,7 +128,7 @@ namespace CodingBat {
 
         public static String makeOutWord(String box, String word) { // inserts the String word after the 2nd char of the String box
             StringBuilder sb = new StringBuilder();
-            sb.Append(box.Substring(0, 2) + word + box.Substring(2));
+            sb.Append(box.Substring(0, 2) + word + box.Substring(2)); // box[0]+box[1]+word}box[2->n-1]
 
             return sb.ToString();
         }
