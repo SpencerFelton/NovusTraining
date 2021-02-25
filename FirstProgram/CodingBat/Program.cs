@@ -141,10 +141,10 @@ namespace CodingBat {
         }
 
         public static String seeColour(String str) { // returns the string "blue" or "red" depending which comes first in the input string
-            if (str.Substring(0, 3) == "red") {
+            if (str.Substring(0, 3) == "red") { // first word red
                 return str.Substring(0, 3);
             }
-            else if (str.Substring(0, 4) == "blue") {
+            else if (str.Substring(0, 4) == "blue") { // first word blue
                 return str.Substring(0, 4);
             }
             else {
