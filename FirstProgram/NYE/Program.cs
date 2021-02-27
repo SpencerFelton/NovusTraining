@@ -12,7 +12,7 @@ namespace NYE
         {
             _ = new DateTime(); // a discard variable
             DateTime currentDate = DateTime.Now;
-            _ = new DateTime();
+            _ = new DateTime(); // another discard variable
             string date = "1/1/2021 0:00:01 AM";
             DateTime newYears = DateTime.Parse(date);
             if (currentDate.Date.DayOfYear == newYears.DayOfYear)
